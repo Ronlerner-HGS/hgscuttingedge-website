@@ -1,5 +1,4 @@
 <script lang="ts">
-    import Hero from "$lib/components/Hero.svelte";
     import ProductCard from "$lib/components/ProductCard.svelte";
     import { getFeaturedProducts } from "$lib/data/products";
 
@@ -14,7 +13,6 @@
     />
 </svelte:head>
 
-<Hero title="Cutting Edge" subtitle="Handcrafted Cutting Boards" />
 
 <!-- Intro Section -->
 <section class="intro section">
